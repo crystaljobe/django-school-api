@@ -4,17 +4,17 @@ from .validators import validate_subject_format, validate_professor_name
 # Create your models here.
 class Subject(models.Model):
     subject_name = models.CharField(
-        max_length=30,
+        max_length = 30,
         null = False,
         blank = False,
         unique = True,
-        validators=[validate_subject_format]
+        validators = [validate_subject_format]
     )
     professor = models.CharField(
-        max_length=100,
+        max_length = 100,
         null = False,
         blank = False,
-        validators=[validate_professor_name]
+        validators = [validate_professor_name]
     )
     
     def __str__(self):

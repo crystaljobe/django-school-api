@@ -26,20 +26,25 @@ class Student(models.Model):
         )
     locker_number = models.IntegerField(
         unique = True, 
-        default=110, 
+        default = 110, 
         null = False, 
         blank = False,  
         validators=[v.MinValueValidator(1), v.MaxValueValidator(200)]
         )
     locker_combination = models.CharField(
-        max_length=20, 
+        max_length = 20, 
         default = "12-12-12", 
         null = False, 
         blank = False, 
         validators=[validate_combination_format]
         )
-    good_student = models.BooleanField(default=True)
-    subjects = models.ManyToManyField(Subject, related_name = 'students')
+    good_student = models.BooleanField(
+        default = True
+        )
+    subjects = models.ManyToManyField(
+        Subject, 
+        related_name = 'students'
+        )
     
     # migrations are not necessary when adding/updating methods
     def __str__(self):
@@ -60,7 +65,7 @@ class Student(models.Model):
         if total_subjects < 8:
             self.subjects.add(subject_id)
         else:
-            raise Exception("This students class schedule is full")
+            raise Exception("This students class schedule is full!")
         
     def remove_subject(self, subject_id):
         total_subjects = self.subjects.count()
