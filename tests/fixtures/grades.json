@@ -1,0 +1,110 @@
+[
+{
+  "model": "grade_app.grade",
+  "pk": 1,
+  "fields": {
+    "grade": "88.00",
+    "a_subject": 1,
+    "student": 5
+  }
+},
+{
+  "model": "grade_app.grade",
+  "pk": 2,
+  "fields": {
+    "grade": "100.00",
+    "a_subject": 1,
+    "student": 3
+  }
+},
+{
+  "model": "grade_app.grade",
+  "pk": 3,
+  "fields": {
+    "grade": "90.00",
+    "a_subject": 1,
+    "student": 4
+  }
+},
+{
+  "model": "grade_app.grade",
+  "pk": 4,
+  "fields": {
+    "grade": "75.89",
+    "a_subject": 2,
+    "student": 4
+  }
+},
+{
+  "model": "grade_app.grade",
+  "pk": 5,
+  "fields": {
+    "grade": "85.60",
+    "a_subject": 2,
+    "student": 4
+  }
+},
+{
+  "model": "grade_app.grade",
+  "pk": 6,
+  "fields": {
+    "grade": "66.32",
+    "a_subject": 3,
+    "student": 2
+  }
+},
+{
+  "model": "grade_app.grade",
+  "pk": 7,
+  "fields": {
+    "grade": "85.50",
+    "a_subject": 3,
+    "student": 1
+  }
+},
+{
+  "model": "grade_app.grade",
+  "pk": 8,
+  "fields": {
+    "grade": "70.80",
+    "a_subject": 4,
+    "student": 2
+  }
+},
+{
+  "model": "grade_app.grade",
+  "pk": 9,
+  "fields": {
+    "grade": "65.00",
+    "a_subject": 4,
+    "student": 1
+  }
+},
+{
+  "model": "grade_app.grade",
+  "pk": 10,
+  "fields": {
+    "grade": "100.00",
+    "a_subject": 3,
+    "student": 3
+  }
+},
+{
+  "model": "grade_app.grade",
+  "pk": 11,
+  "fields": {
+    "grade": "100.00",
+    "a_subject": 4,
+    "student": 3
+  }
+},
+{
+  "model": "grade_app.grade",
+  "pk": 12,
+  "fields": {
+    "grade": "100.00",
+    "a_subject": 2,
+    "student": 3
+  }
+}
+]

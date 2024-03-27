@@ -6,5 +6,6 @@ from rest_framework.response import Response
 # Create your views here.
 class All_students(APIView):
     def get(self, request):
-        students = StudentAllSerializer(Student.objects.order_by('id', many=True))
-        return Response(students.data)
+        students = Student.objects.all()
+        ser_students = StudentAllSerializer(students, many=True)
+        return Response(ser_students.data)

@@ -31,6 +31,8 @@ class Subject(models.Model):
             self.students.remove(student_id)
         else: 
             raise Exception("This subject is empty!")
+
+    
             
     
     

@@ -1,0 +1,84 @@
+[
+{
+  "model": "student_app.student",
+  "pk": 1,
+  "fields": {
+    "name": "Jane D. Doo",
+    "student_email": "janedoo@school.com",
+    "personal_email": "janedoo1@gmail.com",
+    "locker_number": 2,
+    "locker_combination": "11-22-33",
+    "good_student": true,
+    "subjects": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "student_app.student",
+  "pk": 2,
+  "fields": {
+    "name": "John A. Doe",
+    "student_email": "johndoe@school.com",
+    "personal_email": "johnnyboy@gmail.com",
+    "locker_number": 1,
+    "locker_combination": "66-55-44",
+    "good_student": true,
+    "subjects": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "student_app.student",
+  "pk": 3,
+  "fields": {
+    "name": "Hermoine P. Granger",
+    "student_email": "hermoninegranger@school.com",
+    "personal_email": "hermoninegranger@yahoo.com",
+    "locker_number": 3,
+    "locker_combination": "99-88-77",
+    "good_student": true,
+    "subjects": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "student_app.student",
+  "pk": 4,
+  "fields": {
+    "name": "Harry L. Potter",
+    "student_email": "harrypotter@school.com",
+    "personal_email": "iamharrypotter@aol.com",
+    "locker_number": 4,
+    "locker_combination": "77-44-11",
+    "good_student": true,
+    "subjects": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "student_app.student",
+  "pk": 5,
+  "fields": {
+    "name": "Ronald D. Weasley",
+    "student_email": "ronweasley@school.com",
+    "personal_email": "yahboyron@aim.com",
+    "locker_number": 5,
+    "locker_combination": "99-66-33",
+    "good_student": true,
+    "subjects": [
+      1,
+      2
+    ]
+  }
+}
+]
